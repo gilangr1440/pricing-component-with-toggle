@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/pricing-component-with-toggle-3sGOysinZY)
+- Live Site URL: [live site URL here](https://gilangr1440.github.io/pricing-component-with-toggle/)
 
 ## My process
 
