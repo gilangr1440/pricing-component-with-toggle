@@ -1,0 +1,11 @@
+@import "variables";
+
+body {
+  background-position: top -5vw right -20vw;
+
+  @at-root .main {
+    @at-root .main__card {
+      max-width: 500px;
+    }
+  }
+}

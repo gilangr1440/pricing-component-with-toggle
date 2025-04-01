@@ -1,0 +1,11 @@
+@import "variables";
+
+body {
+  @at-root .main {
+    @at-root .main__card {
+      @at-root .main__price {
+        font-size: 4.3em;
+      }
+    }
+  }
+}

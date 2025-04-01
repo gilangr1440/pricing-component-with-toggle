@@ -1,0 +1,25 @@
+body {
+  background-image: url(../../images/bg-top.svg), url(../../images/bg-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 0 right 0, bottom 0 left 0;
+}
+.main {
+  flex-direction: row;
+  gap: 0;
+  width: 95%;
+  margin: 0 auto 50px;
+}
+.main__card {
+  width: 33.33%;
+}
+.main__card_middle {
+  padding: 50px 30px;
+}
+
+.main__card-title {
+  font-size: 1.2em;
+}
+
+.main__price {
+  font-size: 4em;
+}/*# sourceMappingURL=laptop.css.map */

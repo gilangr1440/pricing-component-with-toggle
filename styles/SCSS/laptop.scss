@@ -1,0 +1,30 @@
+@import "variables";
+
+body {
+  background-image: url(../../images/bg-top.svg), url(../../images/bg-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top 0 right 0, bottom 0 left 0;
+
+  @at-root .main {
+    flex-direction: row;
+    gap: 0;
+    width: 95%;
+    margin: 0 auto 50px;
+
+    @at-root .main__card {
+      width: 33.33%;
+
+      @at-root &_middle {
+        padding: 50px 30px;
+      }
+
+      @at-root .main__card-title {
+        font-size: 1.2em;
+      }
+
+      @at-root .main__price {
+        font-size: 4em;
+      }
+    }
+  }
+}
